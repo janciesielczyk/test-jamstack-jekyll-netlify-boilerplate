@@ -4,8 +4,13 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-{% include page-intro.html %}
+<div class="flex flex-wrap">
+    <div class="margin-r-30">
+        {% include page-intro.html %}
+    </div>
+    <div class="w-100">
+        {{ content }}
+        {% include contact-form.html %}
+    </div>
+</div>
 
-{{ content }}
-
-{% include contact-form.html %}

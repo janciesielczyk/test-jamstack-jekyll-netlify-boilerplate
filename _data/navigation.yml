@@ -2,9 +2,7 @@
 
 - text: Home
   url: /
-- text: About
-  url: /about
+- text: Oferta
+  url: /oferta
 - text: Kontakt
   url: /kontakt
-- text: Blog
-  url: /blog

@@ -1,23 +1,30 @@
 ---
-layout: default
+layout: compress
 ---
 
-<h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
 
-  {% include page-intro.html %}
+  {% include head.html %}
 
-  {{ content }}
+  <body class="body-home">
 
-  <section>
+    <main>
 
-    <h3>Recent posts from the blog</h3>
+      <section class="home-content">
+        <img title="Ciesielczyk" src="/assets/img/logo1024.png">
+      </section>
+      <nav class="home-nav">
+        <ul>
+          <li> <a href="/oferta">Oferta</a></li>
+          <li> <a href="/kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
 
-    <ul>
-      {% for post in site.posts limit:3 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+    </main>
 
-  </section>
+    {% include footer.html %}
+
+  </body>
+
+</html>

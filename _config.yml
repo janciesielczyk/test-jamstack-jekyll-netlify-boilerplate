@@ -43,6 +43,11 @@ sass:
 compress_html:
   clippings: all
 
+collections:   
+  shoes:
+    output: true
+    permalink: /shoes/:path/
+
 # set some common post defaults
 defaults:
   -
@@ -67,6 +72,8 @@ kramdown:
 #include:
 #  - _redirects
 #  - _headers
+
+plugins:
 
 # Exclude from processing.
 # The following items will not be processed.
