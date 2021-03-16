@@ -1,7 +1,13 @@
 <header>
 
   <a class="header-link" href="{{ "/" | relative_url }}">
-    <img title="Ciesielczyk" src="/assets/img/logo256w.png">
+    <!-- <img title="Ciesielczyk" src="/assets/img/logosmw50.png"> -->
+    <img title="Ciesielczyk"
+      srcset="/assets/img/logosmw50.png 50w,
+              /assets/img/logo256w.png 256w"
+      sizes="(max-width: 499px) 50px,
+              256px"
+      src="/assets/img/logo256w.png">
   </a>
 
   <nav>

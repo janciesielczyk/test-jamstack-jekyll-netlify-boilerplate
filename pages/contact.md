@@ -4,7 +4,7 @@ title: Kontakt
 permalink: /kontakt
 section: contact
 intro_paragraph: |-
-  Marek Ciesielczyk  
+  Ciesielczyk Marek  
   Wyrób i Sprzedaż Obuwia  
   Wielkie Drogi 214  
   32-051 Wielkie Drogi  
