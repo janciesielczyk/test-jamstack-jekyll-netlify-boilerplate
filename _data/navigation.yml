@@ -1,6 +1,6 @@
 # specify main menu items here
 
-# - text: Oferta
-#   url: /oferta
+- text: Oferta
+  url: /oferta
 - text: Kontakt
   url: /kontakt
