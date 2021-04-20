@@ -73,6 +73,7 @@ kramdown:
 #  - _headers
 
 plugins:
+  - jekyll-image-size
 
 # Exclude from processing.
 # The following items will not be processed.

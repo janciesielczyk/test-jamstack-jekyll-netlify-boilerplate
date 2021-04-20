@@ -85,6 +85,23 @@ header > nav {
   }
 }
 
+
+.header-logo {
+  &--small {
+    display: none;
+    @media screen and (max-width: $screen-sm-min) {
+      display: block;
+      max-height: 45px;
+    }
+  }
+  &--large {
+    display: none;
+    @media screen and (min-width: $screen-sm-min + 1px) {
+      display: block;
+    }
+  }
+}
+
 // our main content wrapper, the width scales with font size
 main {
   width: 100%;
@@ -205,7 +222,7 @@ footer {
 .home-nav {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 
   ul {
     display: flex;
@@ -266,7 +283,7 @@ footer {
     img {
       height: 100%;
       width: auto;
-      max-width: max-content;
+      max-width: unset;
     }
   }
 }

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: but 1
-meta_description: opis buta 1
+title: Półbuty czarne
+meta_description: Półbuty czarne
 images:
-  - thumbnail: /assets/img/uploads/travelmap.png
-  - thumbnail: /assets/img/uploads/mapa4.png
-  - thumbnail: /assets/img/uploads/travelmap.png
-  - thumbnail: /assets/img/uploads/mapa4.png
+  - thumbnail: /assets/img/uploads/polbuty_czarne_1.jpg
+  - thumbnail: /assets/img/uploads/polbuty_czarne_2.jpg
+  - thumbnail: /assets/img/uploads/polbuty_czarne_3.jpg
+
 ---
