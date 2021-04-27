@@ -60,9 +60,7 @@ class Jekyll::Thumbnail < Liquid::Tag
         puts "Thumbnailing #{source} to #{dest} (#{dimensions})"
 
         image = MiniMagick::Image.open(source_path)
-        
-        image.strip
-        image.strip
+
         image.resize dimensions
         image.write dest_path
 
@@ -71,7 +69,7 @@ class Jekyll::Thumbnail < Liquid::Tag
         image_optim.optimize_image!(dest_path)
       end
 
-      """#{dest}"""
+      """/#{dest}"""
 
       # TODO support relative paths
     else
