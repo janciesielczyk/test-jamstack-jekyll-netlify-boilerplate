@@ -14,7 +14,7 @@ layout: default
         <div class="my-gallery shoe__imgs" itemscope itemtype="http://schema.org/ImageGallery">
           {% for image in shoe.images %}
             <figure class="shoe__imgfig" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="{{ image.thumbnail }}" itemprop="contentUrl" data-size="{% imagesize image.thumbnail %} 4">
+              <a href="{% thumbnail image.thumbnail 1600x1600 %}" itemprop="contentUrl" data-size="{% imagesize image.thumbnail %} 4">
                 <img src="{% thumbnail image.thumbnail 500x500 %}" itemprop="thumbnail" alt="{{ shoe.meta_description }}" />
               </a>
             </figure>
